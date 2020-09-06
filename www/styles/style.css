@@ -1,0 +1,65 @@
+@import 'normalize.css';
+
+header {
+    background: rgb(56, 179, 228);
+    margin-left: 8px;
+    text-align: center;
+    
+       
+    
+}
+section {
+    background-color: snow;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+
+footer {
+    background: rgb(248, 31, 150);
+    margin-left: 8px;
+   margin-top: 500px;
+    width:100%;
+    height:100px;
+    color: white;
+    text-align: right;
+    
+}
+#section2{
+    float: left;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin-right: -200px;
+    
+}
+#section3{
+    float: right;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin-left: -200px;
+    
+}
+#image1 {
+    justify-content: center;
+}
+#image2{
+    margin-top: 10px;
+
+}
+#image3{
+    margin-top: 10px;
+}
+
+
+p {
+    text-align: left;
+}
+
+div {
+    background-color: rgb(18, 18, 59);
+    height: 220px;
+    width: 400px;
+}
