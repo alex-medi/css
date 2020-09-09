@@ -1,25 +1,27 @@
 @import 'normalize.css';
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('OpenSans-Regular.eot?#iefix') format('embedded-opentype'),  url('OpenSans-Regular.woff') format('woff'), url('OpenSans-Regular.ttf')  format('truetype'), url('OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+  }
+body {
+    font-family: 'Open Sans' Arial, Helvetica, sans-serif;
+}
 header {
     background: rgb(56, 179, 228);
     margin-left: 8px;
     text-align: center;
-    
+    background-color: #76bcda;
        
     
 }
-#section1 {
-    text-align: center;
-    
-}
- 
-#section2{
-    text-align: center;
 
-}
+
 
 footer {
-    background: rgb(248, 31, 150);
+    background-color: #ef4c51;
     margin-left: 8px;
    margin-top: 500px;
     width:100%;
@@ -28,16 +30,13 @@ footer {
     text-align: left;
     
 }
-
-#image1 {
-    justify-content: center;
-}
-#image2{
-    margin-top: 10px;
-
-}
-#image3{
-    margin-top: 10px;
+.bg-image {
+    background-color: #183642;
+    text-align: center;
 }
 
+
+.social-links {
+    text-align: right;
+}
 
