@@ -7,26 +7,26 @@
     <title>ejercicio 1 css</title>
 </head>
 <body>
-    <header>
+    <header class="main-header">
         <img src="images/header-image.png" alt="imagen cabecera">
     </header>
     <main>
      <section class="intro">
          <h1>Lorem, ipsum dolor sit amet!</h1>
-         <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In tempus adipisicing<br>felis, sit amet blandis ipsum voluptate sed. Morbi porttitor, eget accusam<br>dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In tempus adipisicing felis, sit amet blandis ipsum voluptate sed. Morbi porttitor, eget accusam dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
      </section>
       <section class="post-list">
           <article class="post">
-             <div class="bg-image">
+             <header class="bg-image">
                 <img  id="image2" src="images/image-2.png" alt="imagen izquierda">
-             </div>
-             <p>Lorem ipsum dolor sit amet<br>consectetur, adipisicing elit. In<br>tempus adipisicing felis, sit amet<br>blandis ipsum voluptate sed. Morbi<br>porttitor, eget accusam dictum, nisi<br>libero ultricies ipsum, in posuere<br>mauris neque at erat.</p>
+             </header>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In tempus adipisicing felis, sit amet blandis ipsum voluptate sed. Morbi porttitor, eget accusam dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
           </article>
           <article class="post">
-             <div class="bg-image">
+             <header class="bg-image">
                 <img  id="image3" src="images/image3.png" alt="imagen derecha">
-             </div>
-             <p>Lorem ipsum dolor sit amet<br>consectetur, adipisicing elit. In<br>tempus adipisicing felis, sit amet<br>blandis ipsum voluptate sed. Morbi<br>porttitor, eget accusam dictum, nisi<br>libero ultricies ipsum, in posuere<br>mauris neque at erat.</p>
+             </header>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In tempus adipisicing felis, sit amet blandis ipsum voluptate sed. Morbi porttitor, eget accusam dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
           </article>
 
       </section>
@@ -34,15 +34,18 @@
     </main>
     <footer>
       <section class="footer-text">
-        <p>Someone,somewhere2013<br>ususcribe to this newsletter instantly</p>
+        <p>
+          <span>@ Someone,somewhere2013</span><br>
+          <a href="/">Unsuscribe</a>
+          <span> to this newsletter instantly</span></p>
       </section>
 
        <section class="social-links">
          <a class="twitter" href="https://twitter.com"><img src="images/twitter.png" alt=""></a>
         <a class="facebook" href="https://facebook.com"><img src="images/facebook.png" alt=""></a>
-        
+       </section> 
       </footer>
-       </section>
+       
       
 </body>
 </html>
